@@ -1,1 +1,43 @@
 /* All styles for your header Components live here */
+.header-container {
+  width: 650px;
+  display: flex;
+  flex-direction: row;
+}
+.top-header {
+  display: flex;
+  flex-direction: column;
+  padding-left: 6px;
+}
+.image-thumbnail {
+  height: 80px;
+}
+.header-title {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+.header-title .lambda-school {
+  margin: 8px 0 0;
+  padding: 0;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+.header-title .symbol {
+  color: gray;
+  margin: 8px 0 0;
+  padding: 0 10px;
+  font-size: 1.4rem;
+}
+.header-title .date {
+  color: gray;
+  margin: 8px 0 0;
+  padding: 0 10px;
+  font-size: 1.4rem;
+}
+.header-content {
+  font-size: 1.6rem;
+  padding: 0;
+  font-weight: normal;
+  line-height: 1.4;
+}
