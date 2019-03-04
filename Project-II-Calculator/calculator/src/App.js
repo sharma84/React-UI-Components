@@ -4,7 +4,6 @@ import NumberButton from "./components/ButtonComponents/NumberButton";
 import CalculatorDisplay from "./components/DisplayComponents/CalculatorDisplay";
 import ActionButton from "./components/ButtonComponents/ActionButton";
 import ClearButton from "./components/ButtonComponents/ClearButton";
-import ZeroButton from "./components/ButtonComponents/ZeroButton";
 
 const App = () => {
   return (
@@ -24,10 +23,9 @@ const App = () => {
       <NumberButton number="2" />
       <NumberButton number="3" />
       <ActionButton action="&#43;" />
-      <ZeroButton zero="0" />
+      <ClearButton clear="0" />
       <ActionButton action="&#61;" />
     </div>
   );
 };
-
 export default App;
